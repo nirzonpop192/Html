@@ -1,0 +1,15 @@
+
+h1,h2,h3{
+  color: brown
+}
+
+ul{
+  list-style-image: url("../imgs/tynee_coffee_b.jpg");
+}
+div{
+  width: 900px;
+}
+
+#div_brewing{
+  width: 1100px
+}
