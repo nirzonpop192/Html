@@ -1,0 +1,54 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  width: 960px
+}
+
+h2,h3{
+  color: brown;
+}
+h1{
+  font-family: 'Indie Flower', cursive;
+  color: brown;
+}
+ul{
+  list-style-image: url("images/tiny-coffee-cup.gif");
+}
+a:link , a:visited{
+  text-decoration: none;
+  color: brown;
+}
+a:hover{
+  color: red;
+}
+
+nav ul{
+  list-style: none;
+}
+nav li{
+  display: inline;
+
+}
+
+nav a:link , nav a:visited{
+  background-color: brown;
+  color: white
+}
+
+nav a:hover{
+  background-color: black;
+}
+aside{
+  width: 200px;
+  background-color: tan;
+  float: right;
+
+}
+.qute{
+  font-family: 'Dancing Script', cursive;
+ font-size: x-large
+}
+div{
+  float: right;
+  margin-right: 10px
+}
