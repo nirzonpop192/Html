@@ -10,6 +10,7 @@ h2,h3{
 h1{
   font-family: 'Indie Flower', cursive;
   color: brown;
+  margin-top: 50px;
 }
 ul{
   list-style-image: url("images/tiny-coffee-cup.gif");
@@ -24,31 +25,79 @@ a:hover{
 
 nav ul{
   list-style: none;
+  padding: 0
 }
 nav li{
   display: inline;
-
+  float: left;
 }
 
 nav a:link , nav a:visited{
   background-color: brown;
-  color: white
+  color: white;
+  display:block;
+  width: 160px;
+  text-align: center;
+  padding: 10px 0
 }
 
 nav a:hover{
   background-color: black;
 }
 aside{
-  width: 200px;
+  width: 250px;
   background-color: tan;
   float: right;
-
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-left: 20px
 }
 .qute{
   font-family: 'Dancing Script', cursive;
- font-size: x-large
+  font-size: 1.2em
 }
-div{
+.right_text{
   float: right;
-  margin-right: 10px
+  margin-right: 10px;
+}
+.left_photo{
+  float: left;
+  margin-right: 20px
+}
+
+.right_photo{
+  float: right;
+  margin-left: 20px
+}
+header{
+  background-image: url("images/coffee-beans.jpg");
+  height: 100px;
+  margin-bottom: 70px
+}
+header h1{
+  color: rgba(256,256,256,8);
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 45px;
+}
+p{
+  text-align: justify;
+}
+.body_text{
+  margin-right: 300px;
+  margin-left: 10px;
+}
+
+footer{
+  margin: 40px 0;
+
+}
+
+footer nav a:link ,footer nav a:visited{
+  background-color: white;
+  color: gray;
+  width: 160px;
+  text-align: center;
+  display: block;
 }
